@@ -85,9 +85,9 @@ public class AyuConfig {
             // ~ Message saving preferences
             saveMedia = preferences.getBoolean("saveMedia", true);
             saveMediaInPrivateChats = preferences.getBoolean("saveMediaInPrivateChats", true);
-            saveMediaInPublicChannels = preferences.getBoolean("saveMediaInPublicChannels", false);
+            saveMediaInPublicChannels = preferences.getBoolean("saveMediaInPublicChannels", true);
             saveMediaInPrivateChannels = preferences.getBoolean("saveMediaInPrivateChannels", true);
-            saveMediaInPublicGroups = preferences.getBoolean("saveMediaInPublicGroups", false);
+            saveMediaInPublicGroups = preferences.getBoolean("saveMediaInPublicGroups", true);
             saveMediaInPrivateGroups = preferences.getBoolean("saveMediaInPrivateGroups", true);
             saveForBots = preferences.getBoolean("saveForBots", true);
 
